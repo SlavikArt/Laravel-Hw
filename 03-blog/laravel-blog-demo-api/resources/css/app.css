@@ -1,0 +1,14 @@
+@import 'bulma/css/bulma.css';
+
+/* Bulma CSS is imported via npm */
+/* All styling is now done using Bulma classes */
+
+/* Custom utility classes if needed */
+.has-rounded-corners {
+    border-radius: 8px;
+}
+
+.post-title {
+    color: #fff !important;
+    font-weight: 700;
+}

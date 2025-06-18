@@ -1,0 +1,114 @@
+### Get all posts (with pagination)
+GET http://blog.test/api/posts?page=1
+Accept: application/json
+
+###
+
+### Search posts by keyword in title or content
+GET http://blog.test/api/posts?search=laravel
+Accept: application/json
+
+###
+
+### Filter posts by publication status (published)
+GET http://blog.test/api/posts?published=1
+Accept: application/json
+
+###
+
+### Filter posts by publication status (unpublished)
+GET http://blog.test/api/posts?published=0
+Accept: application/json
+
+###
+
+### Filter posts by author
+GET http://blog.test/api/posts?author=01jp0h8babq35nw8bvwmdbc551
+Accept: application/json
+
+###
+
+### Sort posts by title (ascending)
+GET http://blog.test/api/posts?sort=title
+Accept: application/json
+
+###
+
+### Sort posts by title (descending)
+GET http://blog.test/api/posts?sort=-title
+Accept: application/json
+
+###
+
+### Sort posts by created_at (ascending)
+GET http://blog.test/api/posts?sort=created_at
+Accept: application/json
+
+###
+
+### Sort posts by created_at (descending)
+GET http://blog.test/api/posts?sort=-created_at
+Accept: application/json
+
+###
+
+### Combine multiple filters: search + published + sort
+GET http://blog.test/api/posts?search=laravel&published=1&sort=-created_at
+Accept: application/json
+
+###
+
+### Create a new post
+POST http://blog.test/api/posts
+Content-Type: application/json
+Accept: application/json
+
+{
+    "user_id": "01jp0h8babq35nw8bvwmdbc551",
+    "slug": "itstep-post4",
+    "title": "itstep post laravel notifications4",
+    "content": "This is the content of my new post4. Нотифікації в Ларавель працюють.",
+    "is_publish": true,
+    "image": "https://example.com/path/to/new-image.jpg",
+    "tags": [
+        "01jp0h8bbm64sc6zfjks704tsr",
+        "01jp0h8bbn1707hbsz26ra7wb3"
+    ]
+}
+
+###
+
+### Get a specific post
+GET http://blog.test/api/posts/01jnec7njz8asddk73g777j5zf
+Accept: application/json
+
+###
+
+### Update an existing post
+PUT http://blog.test/api/posts/01jnec7njz8asddk73g777j5zf
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "Updated Post Title",
+    "content": "This is the updated content.",
+    "is_publish": false,
+    "tags": [
+        "01jp0h8bbm64sc6zfjks704tsr"
+    ]
+}
+
+###
+
+### Delete a post
+DELETE http://blog.test/api/posts/magni-et-voluptate-ducimus-et-ullam
+Accept: application/json
+
+###
+
+### Publish post
+PUT http://blog.test/api/posts/tempora-dicta-quo-cum-in-voluptatem/publish
+Content-Type: application/json
+Accept: application/json
+
+###
