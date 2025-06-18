@@ -1,4 +1,4 @@
-# Laravel Learning Project
+# Migrations App
 
 ## Project Structure
 
