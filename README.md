@@ -6,9 +6,15 @@
 
 * 📁 [01-db-migrations](./01-db-migrations)
   * 📁 [migrations-app](./01-db-migrations/migrations-app)
-* 📁 [02-routes-controllers](./02-routes-controllers/)
-  * 📁 [converter-app](./02-routes-controllers/converter-app/)
-* 📁 [04-notifications-to-telegram](./04-notifications-to-telegram/)
-  * 📁 [notifications-app](./04-notifications-to-telegram/notifications-app/)
-
-
+* 📁 [02-routes-controllers](./02-routes-controllers)
+  * 📁 [converter-app](./02-routes-controllers/converter-app)
+* 📁 [03-blog](./03-blog)
+  * 📁 [blog-app](./03-blog/blog-app)
+* 📁 [04-notifications-to-telegram](./04-notifications-to-telegram)
+  * 📁 [notifications-app](./04-notifications-to-telegram/notifications-app)
+* 📁 [05-auth](./05-auth)
+  * 📁 [auth-app](./05-auth/auth-app)
+* 📁 [06-localization](./06-localization)
+  * 📁 [localization-app](./06-localization/localization-app)
+* 📁 [07-quotes](./07-quotes)
+  * 📁 [quotes-app](./07-quotes/quotes-app)
