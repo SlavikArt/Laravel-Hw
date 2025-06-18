@@ -8,4 +8,7 @@
   * 📁 [migrations-app](./01-db-migrations/migrations-app)
 * 📁 [02-routes-controllers](./02-routes-controllers/)
   * 📁 [converter-app](./02-routes-controllers/converter-app/)
+* 📁 [04-notifications-to-telegram](./04-notifications-to-telegram/)
+  * 📁 [notifications-app](./04-notifications-to-telegram/notifications-app/)
+
 
